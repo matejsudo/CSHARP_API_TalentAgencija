@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "TalentAgencijaAPP.Controllers.AgentController",
+    "Method": "Get",
+    "RelativePath": "api/v1/agenti",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentAgencijaAPP.Controllers.AgentController",
+    "Method": "Post",
+    "RelativePath": "api/v1/agenti",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agent",
+        "Type": "TalentAgencijaAPP.Models.Agent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentAgencijaAPP.Controllers.AgentController",
+    "Method": "GetBySifra",
+    "RelativePath": "api/v1/agenti/{sifra}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sifra",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentAgencijaAPP.Controllers.AgentController",
+    "Method": "Put",
+    "RelativePath": "api/v1/agenti/{sifra}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sifra",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "agent",
+        "Type": "TalentAgencijaAPP.Models.Agent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentAgencijaAPP.Controllers.AgentController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/agenti/{sifra}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sifra",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

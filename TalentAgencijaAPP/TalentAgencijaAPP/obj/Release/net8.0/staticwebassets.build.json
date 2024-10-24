@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "vvf/xK3pS9gTwVhSei+znEFUzENaBTPo8aa/3B6jlhA=",
+  "Source": "TalentAgencijaAPP",
+  "BasePath": "_content/TalentAgencijaAPP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TalentAgencijaAPP\\wwwroot",
+      "Source": "TalentAgencijaAPP",
+      "ContentRoot": "C:\\Users\\FILIP\\OneDrive\\Documents\\GitHub\\CSHARP_API_TalentAgencija\\TalentAgencijaAPP\\TalentAgencijaAPP\\wwwroot\\",
+      "BasePath": "_content/TalentAgencijaAPP",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
