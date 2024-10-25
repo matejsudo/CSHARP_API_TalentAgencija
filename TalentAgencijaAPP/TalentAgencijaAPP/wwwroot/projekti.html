@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upravljanje Projektima</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="centered-title">
+        <h1>Upravljanje Projektima</h1>
+    </div>
+
+    <form id="projectForm">
+        <div class="form-group">
+            <label for="naziv">Naziv:</label>
+            <input type="text" id="naziv" name="naziv" required>
+        </div>
+        <div class="form-group">
+            <label for="vrijednost">Vrijednost (u €):</label>
+            <input type="number" id="vrijednost" name="vrijednost" required>
+        </div>
+        <div class="form-group">
+            <label for="pocetakProjekta">Početak Projekta:</label>
+            <input type="datetime-local" id="pocetakProjekta" name="pocetakProjekta">
+        </div>
+        <div class="form-group">
+            <label for="krajProjekta">Kraj Projekta:</label>
+            <input type="datetime-local" id="krajProjekta" name="krajProjekta">
+        </div>
+        <div class="form-group">
+            <label for="opis">Opis:</label>
+            <textarea id="opis" name="opis"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="klijentId">Klijent:</label>
+            <select id="klijentId" name="klijentId" required>
+                <option value="" disabled selected>Odaberite klijenta</option>
+                <!-- Options will be populated from script.js -->
+            </select>
+        </div>
+        <button type="submit" class="btn">Dodaj Projekt</button>
+    </form>
+
+    <div>
+        <h2>Lista Projekata</h2>
+        <ul id="projectList"></ul> <!-- Projekti will be displayed here -->
+    </div>
+
+    <a href="index.html" class="btn back-btn">Natrag na Početak</a>
+</body>
+</html>

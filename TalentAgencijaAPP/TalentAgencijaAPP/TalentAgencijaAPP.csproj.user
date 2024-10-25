@@ -2,6 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>https</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\FILIP\OneDrive\Documents\GitHub\CSHARP_API_TalentAgencija\TalentAgencijaAPP\TalentAgencijaAPP\Properties\PublishProfiles\sudojug2-001-site1 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Phreeek\Desktop\CSHARP_API_TalentAgencija-main\TalentAgencijaAPP\TalentAgencijaAPP\Properties\PublishProfiles\sudojug2-001-site1 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

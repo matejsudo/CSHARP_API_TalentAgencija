@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upravljanje Talent Agencijom</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="centered-title">
+        <h1>Upravljanje Talent Agencijom</h1>
+    </div>
+
+    <div class="navigation">
+        <div class="menu">
+            <a href="klijenti.html" class="btn">Upravljanje Klijentima</a>
+            <a href="projekti.html" class="btn">Upravljanje Projektima</a>
+        </div>
+
+        <div class="links">
+            <a href="ER_diagram.png" class="btn" target="_blank">ER Dijagram</a>
+            <a href="https://github.com/matejsudo/CSHARP_API_TalentAgencija" class="btn" target="_blank">GitHub Repozitorij</a>
+        </div>
+    </div>
+
+    <form id="agentForm">
+        <div class="form-group">
+            <label for="ime">Ime:</label>
+            <input type="text" id="ime" name="ime" required>
+        </div>
+        <div class="form-group">
+            <label for="prezime">Prezime:</label>
+            <input type="text" id="prezime" name="prezime" required>
+        </div>
+        <div class="form-group">
+            <label for="agentOd">Agent Od:</label>
+            <input type="date" id="agentOd" name="agentOd">
+        </div>
+        <div class="form-group">
+            <label for="verificiran">Verificiran:</label>
+            <input type="checkbox" id="verificiran" name="verificiran">
+        </div>
+        <button type="submit" class="btn">Dodaj Agenta</button>
+    </form>
+
+    <div>
+        <h2>Lista Agenta</h2>
+        <ul id="agentList"></ul>
+    </div>
+</body>
+</html>
